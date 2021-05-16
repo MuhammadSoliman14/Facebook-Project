@@ -5,11 +5,12 @@ public class UserAccount {
 	private String Email;
 	private String Password;
 	private String UserName;
+	private FriendList friends;
 	private ArrayList<String> Feed = new ArrayList<String>();
 	private ArrayList<String> posts = new ArrayList<String>();
 	
 	
-UserAccount(String Email, String Password, String UserName, ArrayList Feed, ArrayList posts){
+	UserAccount(String Email, String Password, String UserName, ArrayList Feed, ArrayList posts){
 		
 	}
 	
