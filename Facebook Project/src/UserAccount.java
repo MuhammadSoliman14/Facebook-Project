@@ -9,7 +9,9 @@ public class UserAccount {
 	private ArrayList<String> posts = new ArrayList<String>();
 	
 	
-	UserAccout(Email)
+UserAccount(String Email, String Password, String UserName, ArrayList Feed, ArrayList posts){
+		
+	}
 	
 	public static void login( String Email, String Password) { 
 		
