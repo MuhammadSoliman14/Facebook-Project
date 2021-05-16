@@ -1,4 +1,6 @@
 
-public class Pages {
+public class Pages extends Group {
 
+	public void addRec() {
+	}
 }
