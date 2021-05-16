@@ -10,7 +10,7 @@ public class Post {
 		
 	}
 	
-	static void createPost() {
+	 public static void createPost() {
 		
 	}
 	
