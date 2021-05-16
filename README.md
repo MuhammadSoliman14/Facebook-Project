@@ -1,5 +1,6 @@
 # AiUbook Project
 
-By: Youssed Elgazar & Mohammed Soliman.
+By: Youssef Elgazar & Muhammad Soliman.
 
 Made with hate <3
+
