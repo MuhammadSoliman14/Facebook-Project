@@ -1,34 +1,34 @@
 import java.util.*;
 public class Profile {
  
-	private String Bio ;
-	private ArrayList <String> Friends = new ArrayList <String>();  
-	private ArrayList <String> Groups = new ArrayList <String>();
-	private String School;
-	private String Workplace;
-	private String Relationship;
-	private String Hometown;
+	private String bio;
+	private ArrayList <String> friends = new ArrayList <String>();  
+	private ArrayList <String> groups = new ArrayList <String>();
+	private String school;
+	private String workplace;
+	private String relationship;
+	private String hometown;
 	
 	
-	 public Profile(String Bio,FriendList Friends, ArrayList Groups, String School, String workplace, String Relationship) {
+	 public Profile(String bio,FriendList friends, ArrayList groups, String school, String workplace, String relationship) {
 		 
-		this.Bio = Bio;
-		this.School = School;
-		this.Workplace = Workplace;
-		this.Relationship = Relationship;
+		this.bio = bio;
+		this.school = school;
+		this.workplace = workplace;
+		this.relationship = relationship;
 	
 	 }
 
-	 public static void editProfile(String Bio, String School, String workplace, String Relationship) {
+	 public static void editProfile(String bio, String school, String workplace, String relationship) {
 		
-		String newBio = Bio;
-		String newSchool = School;
+		String newBio = bio;
+		String newSchool = school;
 		String newWorkplace = workplace;
-		String newRelationship = Relationship;
+		String newRelationship = relationship;
 		
 	 }
 	 
-	 public static ArrayList viewGroups( ArrayList Groups) {
-		 return Groups;
+	 public static ArrayList viewGroups( ArrayList groups) {
+		 return groups;
 	 }
 }
